@@ -1,36 +1,116 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Internal CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <title> Internal CSS </title>
     <style>
-        #obj {
-           color: brown;
-        }
-        p {
-            color: green;
-            font-size: larger;
-        }
+      body {
+        background-image: url(developer.png);
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+      }
+      #obj {
+        color: #d35400;
+        background-color: antiquewhite;
+        text-align: center;
+        font-family: "Sofia", cursive;
+      }
+      p {
+        color: rgb(0, 128, 0);
+        font-size: larger;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+      .myclass {
+        color: rgb(165, 42, 42);
+        font-size: larger;
+      }
+      #roles {
+        margin-bottom: 50px;
+      }
+      #para {
+        margin-top: 100px;
+        border: 2px solid chocolate;
+        width: 200px;
+        height: 100px;
+        border-radius: 20px 5px;
+        background-color: green;
+        box-shadow: 10px 10px 10px coral;
+      }
+      h2{
+        text-shadow: 5px 4px 7px crimson;
+      }
+      h3:hover{
+        color: rgb(188, 72, 72);
+      }
+      h3::after{
+        content: "After Pooja Munde";
+      }
+      .obj::selection{
+        color: #d35400;
+      }
+      /* li{
+        padding: 5px;
+        list-style-type: upper-alpha;
+        list-style-type:lower-alpha ;
+        list-style-type: lower-roman;
+        list-style-type: upper-roman;
+      }
+      ul li{
+        list-style-type: circle;
+      } */
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
+    <h2 id="obj">Career Objectives</h2>
+    <hr />
+    <p class="myclass">
+      Seeking a challenging and rewarding career in a reputed organization where
+      my technical skills would make a positive contribution to the organization
+      <br />
+      and guide me in building a rewarding career at the same time enhancing my
+      knowledge of <i> industry wide processes. </i>
+    </p>
 
-    <h2 id="obj">  Career Objectives </h2>
-    <hr>
+    <hr />
+    <h2>Professional Summary</h2>
     <p>
-        Seeking  a  challenging and  rewarding career 
-        in a reputed organization where my  technical skills 
-        would make   a positive contribution to the organization <br> and guide me  in building a rewarding
-        career at the same time enhancing my knowledge of <i> industry wide processes. </i>
+      &nbsp; &nbsp; &nbsp; &nbsp; Experience in using Chrome Developer Tool for
+      debugging and Troubleshooting the code <br />
+      &nbsp; &nbsp; &nbsp; &nbsp; Knowledge of NodeJS <br />
+      &nbsp; &nbsp; &nbsp; &nbsp; Ability to work with people at all levels in
+      the program
     </p>
+    <h2 id="roles">Roles and Responsibilities</h2>
 
-    <hr>
-    <h2> Professional Summary </h2>
-    <p> 
-        &nbsp; &nbsp; &nbsp; &nbsp; Experience in using Chrome Developer Tool for debugging and Troubleshooting the code <br>
-        &nbsp; &nbsp; &nbsp; &nbsp;  Knowledge of NodeJS <br>
-        &nbsp; &nbsp; &nbsp; &nbsp; Ability to work with people at all levels in the program
-    </p>
-</body>
+    <p id="para">This is para</p>
+    <!-- <ul>
+        <li>Apple</li>
+        <li>Grapes</li>
+    </ul>
+    <ol>
+        <li>Having 1 year of experience in developing Single page Web Applications using <span style="color: rgb(1, 169, 1);">Angular 8</span> , HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
+        <li>Experience on working with version control system - GIT and GitHub</li>
+        <li>Experience working with JIRA for user stories and bug tracking</li>
+        <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+        <li>Working exposure on ID's like VS Code and Notepad++</li>
+        <li>Good Working experience under Agile methodologies environment</li>
+        <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code </li>
+        <li>Knowledge of NodeJS</li>
+        <li>Ability to work with people at all levels in the program</li>
+    </ol> -->
+
+    <marquee direction="right" width="500px" height="20px" behavior="sliding">
+        POOJA
+    </marquee>
+
+    <h3>Roles and Responsibilities</h3>
+  </body>
 </html>

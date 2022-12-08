@@ -2,21 +2,39 @@
 <html>
   <head>
     <title>Personal Details</title>
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Josefin Sans', sans-serif;
+        }
+          .body {
+            color: rgb(68,117,119);
+            text-transform: uppercase;
+            font-size: large;
+          }
+          h2 {
+                color: green;
+                background-color:  rgb(209, 229, 247);
+            }
+            #myid{
+              margin-left: 45px;
+            }
+     </style> 
+</head>
   <body>
-    <h3>Profile Photo:</h3>
+    <h2>Profile Photo:</h2>
     <img src="developer.png" width="200px" height="200px" />
 
     <p>
-      &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Pooja Munde<br />
+      <b id="myid">Pooja Munde</b> <br />
       <br />
-      <b>Mobile Number:</b>8766936461<br />
-      <b>Email:</b>poojamunde@gmail.com<br />
-      <b>Date Of Birth:</b>23 November 1995<br />
-      <b>Address:</b>Wakadkar Wasti, Wakad, Pune 411057<br />
+      <b class="body">Mobile Number:</b>8766936461<br />
+      <b class="body">Email:</b>poojamunde@gmail.com<br />
+      <b class="body">Date Of Birth:</b>23 November 1995<br />
+      <b class="body">Address:</b>Wakadkar Wasti, Wakad, Pune 411057<br />
     </p>
     <details>
-      <summary><strong>Family Details </strong></summary>
+      <summary><strong class="body">Family Details </strong></summary>
       <ul>
         <li><b>Father:</b>Shahaji Tukaram Munde</li>
         <li><b>Mother:</b>Ranjana Shahaji Munde</li>
